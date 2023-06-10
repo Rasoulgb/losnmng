@@ -27,6 +27,13 @@ use App\Http\Controllers\IncomeChartController;
 */
 
 
+
+//
+//sdfsfasdf
+//sdfasf
+//sadf
+//
+
 Route::middleware('auth')->group(function () {
 
     Route:: get('/loan', [LoanController::class, 'index'])->name('loan.index');
